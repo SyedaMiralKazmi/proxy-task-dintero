@@ -1,0 +1,290 @@
+{
+  "logs": [
+    {
+      "id": "0",
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "url": "/v1/accounts/P11223674/auth/token",
+      "res": "{\"error\":{\"errors\":[],\"message\":\"UNAUTHORIZED\"}}",
+      "authorization": "",
+      "host": "localhost:3000",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "1",
+      "headers": {
+        "host": "localhost:3000",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://localhost:3000/v1/accounts/P11223674/auth/token",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9"
+      },
+      "url": "/favicon.ico",
+      "res": "{\n  \"error\": {\n    \"code\": \"NOT_FOUND\",\n    \"errors\": [{\n      \"description\": \"resource not supported by api\"\n    }],\n    \"message\": \"unknown resource\"\n  }\n}\n",
+      "authorization": "",
+      "host": "localhost:3000",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+    },
+    {
+      "id": "2",
+      "headers": {
+        "authorization": "Basic YTU1ZTk3YmQtN2M5Ny00ZDAxLTg0YjctODM4YzI4MTUxMDRlOjAzNTIzMDdjLWI4N2ItNGYzZC1iODEzLWQ0ZjVhNmViZWNmNg==",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "98d50ba8-c3c7-4b96-920d-7dd8078d2bf7",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/auth/token",
+      "res": "{\"error\":{\"errors\":[],\"message\":\"UNAUTHORIZED\"}}",
+      "authorization": "Basic YTU1ZTk3YmQtN2M5Ny00ZDAxLTg0YjctODM4YzI4MTUxMDRlOjAzNTIzMDdjLWI4N2ItNGYzZC1iODEzLWQ0ZjVhNmViZWNmNg==",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "3",
+      "headers": {
+        "authorization": "Bearer 0352307c-b87b-4f3d-b813-d4f5a6ebecf6",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "c4ed1400-0cca-4b4c-b2ef-449198fcc358",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/auth/token",
+      "res": "{\"error\":{\"errors\":[],\"message\":\"UNAUTHORIZED\"}}",
+      "authorization": "Bearer 0352307c-b87b-4f3d-b813-d4f5a6ebecf6",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "4",
+      "headers": {
+        "authorization": "Bearer 0352307c-b87b-4f3d-b813-d4f5a6ebecf6",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "0250bb68-4048-47cc-8bd1-782059ad43fb",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/auth/token",
+      "res": "{\"error\":{\"errors\":[],\"message\":\"UNAUTHORIZED\"}}",
+      "authorization": "Bearer 0352307c-b87b-4f3d-b813-d4f5a6ebecf6",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "5",
+      "headers": {
+        "authorization": "Basic YTU1ZTk3YmQtN2M5Ny00ZDAxLTg0YjctODM4YzI4MTUxMDRlOjAzNTIzMDdjLWI4N2ItNGYzZC1iODEzLWQ0ZjVhNmViZWNmNg==",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "68d95498-e0f0-42b4-8787-eb39a359bf29",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/auth/token",
+      "res": "{\"error\":{\"errors\":[],\"message\":\"UNAUTHORIZED\"}}",
+      "authorization": "Basic YTU1ZTk3YmQtN2M5Ny00ZDAxLTg0YjctODM4YzI4MTUxMDRlOjAzNTIzMDdjLWI4N2ItNGYzZC1iODEzLWQ0ZjVhNmViZWNmNg==",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "6",
+      "headers": {
+        "content-type": "application/json",
+        "authorization": "Basic YTU1ZTk3YmQtN2M5Ny00ZDAxLTg0YjctODM4YzI4MTUxMDRlOjAzNTIzMDdjLWI4N2ItNGYzZC1iODEzLWQ0ZjVhNmViZWNmNg==",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "17f970b0-ffbd-439d-b021-24c1e08dcad0",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "95"
+      },
+      "url": "/v1/accounts/P11223674/auth/token",
+      "res": "{\"access_token\":\"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg\",\"expires_in\":14400,\"token_type\":\"Bearer\"}",
+      "authorization": "Basic YTU1ZTk3YmQtN2M5Ny00ZDAxLTg0YjctODM4YzI4MTUxMDRlOjAzNTIzMDdjLWI4N2ItNGYzZC1iODEzLWQ0ZjVhNmViZWNmNg==",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "7",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "787fe1fd-dd17-4ee0-8ec9-5d23694d6256",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "0"
+      },
+      "url": "/v1/accounts/P11223674/customers/users",
+      "res": "{\"error\":{\"code\":\"INVALID_REQUEST_PARAMETER\",\"errors\":[{\"code\":\"OBJECT_MISSING_REQUIRED_PROPERTY\",\"params\":[\"type\"],\"message\":\"Missing required property: type\",\"path\":[]}],\"in\":\"body\",\"message\":\"Invalid parameter (data): Value failed JSON Schema validation\",\"name\":\"data\",\"path\":[\"paths\",\"/accounts/{aid}/customers/users\",\"post\",\"parameters\",\"0\"]}}",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "8",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "97a728f8-0db0-459b-8e66-cfab641d9775",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "0"
+      },
+      "url": "/v1/accounts/P11223674/customers/users",
+      "res": "{\"error\":{\"code\":\"INVALID_REQUEST_PARAMETER\",\"errors\":[{\"code\":\"OBJECT_MISSING_REQUIRED_PROPERTY\",\"params\":[\"type\"],\"message\":\"Missing required property: type\",\"path\":[]}],\"in\":\"body\",\"message\":\"Invalid parameter (data): Value failed JSON Schema validation\",\"name\":\"data\",\"path\":[\"paths\",\"/accounts/{aid}/customers/users\",\"post\",\"parameters\",\"0\"]}}",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "9",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "6ce6f79e-74e7-45c3-9047-a27ce933ce69",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "0"
+      },
+      "url": "/v1/accounts/P11223674/customers/users",
+      "res": "{\"error\":{\"code\":\"INVALID_REQUEST_PARAMETER\",\"errors\":[{\"code\":\"OBJECT_MISSING_REQUIRED_PROPERTY\",\"params\":[\"type\"],\"message\":\"Missing required property: type\",\"path\":[]}],\"in\":\"body\",\"message\":\"Invalid parameter (data): Value failed JSON Schema validation\",\"name\":\"data\",\"path\":[\"paths\",\"/accounts/{aid}/customers/users\",\"post\",\"parameters\",\"0\"]}}",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "10",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "428dba24-595b-466d-a58b-e1884d1ab934",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/customers/users",
+      "res": "[]",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "11",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "12759580-ba50-4f20-a5b1-4c183a1cfc55",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/customers/users",
+      "res": "[]",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "12",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "266bb665-4665-4668-bdd0-26639aaa1dde",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/customers/users",
+      "res": "[]",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "13",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "c6bccd2e-6a64-4d28-937d-15ec4a8d1759",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/customers/users/497f6eca-6276-4993-bfeb-53cbbbba6f08",
+      "res": "{\"error\":{\"code\":\"NOT FOUND\",\"message\":\"Customer not found\"}}",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    },
+    {
+      "id": "14",
+      "headers": {
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+        "user-agent": "PostmanRuntime/7.29.2",
+        "accept": "*/*",
+        "cache-control": "no-cache",
+        "postman-token": "d347cade-d887-4638-b5ff-9317f149df15",
+        "host": "localhost:3000",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      },
+      "url": "/v1/accounts/P11223674/customers/users/",
+      "res": "[]",
+      "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InRlc3QuZGludGVyby5jb20vOTAzZWI4MzJjNmYxMjBhOWFmNmMxZDEzMjllY2U4NWQ0MDY5YjQwZiJ9.eyJpc3MiOiJodHRwczovL3Rlc3QuZGludGVyby5jb20iLCJhdWQiOiJodHRwczovL1AxMTIyMzY3NEB0ZXN0LmRpbnRlcm8uY29tL3YxL2FjY291bnRzL1AxMTIyMzY3NCIsInN1YiI6ImE1NWU5N2JkLTdjOTctNGQwMS04NGI3LTgzOGMyODE1MTA0ZSIsInNjb3BlcyI6ImFkbWluOmFjY291bnRzIGFkbWluOmF1dG9tYXRpb25zIGFkbWluOmF1ZGl0IGFkbWluOmJpbGxpbmcgYWRtaW46Y2hlY2tvdXQgYWRtaW46Y3VzdG9tZXJzIGFkbWluOmRpc2NvdW50cyBhZG1pbjpob29rcyBhZG1pbjpsb2NhdGlvbnMgYWRtaW46cHJvZHVjdHMgYWRtaW46cmVjZWlwdHMgYWRtaW46cmVwb3J0cyBhZG1pbjpzaG9wcGluZyBhZG1pbjp3YWxsZXRzIiwidmVyc2lvbiI6MiwiaWF0IjoxNjY2Mjg3OTc0LCJleHAiOjE2NjYzMDIzNzR9.RN7VV6ra9-t0Y6eAQOKSTVxYBr8i0d16PtafpDtHjg18A1dWetYHLh9xsg9TU-aRFOgJvMEv7eGHvXoLTxwSaEOMnKp7aLW1DaBlFlhQUTnI20xFb-ejBD1unDCCYQe1aShzZnbXG10zNCQyxV4UEexEaPaR1mNkHNb38SctGbBzJayUFQ4l2w12Omb4mHZCpNdIwjG_nbyNjkBzBISS3es2G7BfIhQIIDZLB0jPztPPQel9qR7el_qFoiJjt9ecjBY_7Kk7yEv3y9ySFmrFlfwIkLB6EDlH81lgWAeigT9Ale_lcBPpJQpcRTOchPOuKFjccxSNWkyKRJL9C2r0Xg",
+      "host": "localhost:3000",
+      "userAgent": "PostmanRuntime/7.29.2"
+    }
+  ]
+}
